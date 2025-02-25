@@ -2,7 +2,7 @@
 
 ### About Us
 
-<img src="./sh33pd0gz.png" align="left">
+<img src="./sh33pd0gz.png" align="left" width="200px"/>
 
 Just a couple of dogs that like a few things:
 
@@ -12,7 +12,7 @@ Just a couple of dogs that like a few things:
 * And problem solving as it relates to the intersection of
 math and computer science
 
-<br clear="left">
+<br clear="left"/>
 
 ### Check Us Out!
 
