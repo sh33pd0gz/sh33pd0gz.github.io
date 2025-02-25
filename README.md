@@ -6,10 +6,10 @@
 
 Just a couple of dogs that like a few things:
 
-> Treats throughout the day
-> Frisbee sessions morning and night
-> Steak dinners
-> And problem solving as it relates to the intersection of
+> * Treats throughout the day
+> * Frisbee sessions morning and night
+> * Steak dinners
+> * And problem solving as it relates to the intersection of
 math and computer science
 
 <br clear="left"/>
