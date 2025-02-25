@@ -1,5 +1,7 @@
 # sh33pd0gz.github.io
 
+![sh33pd0gz image](./sh33pd0gz.png "Sully and Splash")
+
 ### About Us
 
 Just a couple of dogs that like a few things:
@@ -12,10 +14,10 @@ math and computer science
 
 ### Check Us Out!
 
-(LinkedIn)[https://www.linkedin.com/in/nik-kauffman/]
-(LeetCode)[https://leetcode.com/u/sh33pd0gz/]
-(Kaggle)[https://www.kaggle.com/sh33pd0gz]
-(GoodReads)[https://www.goodreads.com/user/show/168374841-nikolas-kauffman]
+[LinkedIn](https://www.linkedin.com/in/nik-kauffman/)
+[LeetCode](https://leetcode.com/u/sh33pd0gz/)
+[Kaggle](https://www.kaggle.com/sh33pd0gz)
+[GoodReads](https://www.goodreads.com/user/show/168374841-nikolas-kauffman)
 
 ### What's to come...
 
