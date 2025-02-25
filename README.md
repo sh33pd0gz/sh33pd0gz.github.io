@@ -16,7 +16,7 @@ math and computer science
 
 ### Check Us Out!
 
-![Resume](./resume.pdf)
+[Resume/CV](./resume.pdf)  
 
 [LinkedIn](https://www.linkedin.com/in/nik-kauffman/)  
 [LeetCode](https://leetcode.com/u/sh33pd0gz/)  
