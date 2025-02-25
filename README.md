@@ -1,16 +1,15 @@
 # Sully and Splash (but mainly Nik's) Portfolio
 
-### About Us
-
 <img src="./sh33pd0gz.png" align="left" width="200px"/>
+
+### About Us
 
 Just a couple of dogs that like a few things:
 
-> * Treats throughout the day
-> * Frisbee sessions morning and night
-> * Steak dinners
-> * And problem solving as it relates to the intersection of
-math and computer science
+> Treats throughout the day  
+> Frisbee sessions morning and night  
+> And problem solving as it relates to the intersection of
+math and computer science  
 
 <br clear="left"/>
 
