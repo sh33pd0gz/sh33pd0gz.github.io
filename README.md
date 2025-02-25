@@ -1,8 +1,8 @@
-# sh33pd0gz.github.io
-
-![sh33pd0gz image](./sh33pd0gz.png "Sully and Splash")
+# Sullivan, Splash, and Nik's Portfolio
 
 ### About Us
+
+<img src="./sh33pd0gz.png" align="left">
 
 Just a couple of dogs that like a few things:
 
@@ -11,6 +11,8 @@ Just a couple of dogs that like a few things:
 * Steak dinners
 * And problem solving as it relates to the intersection of
 math and computer science
+
+<br clear="left">
 
 ### Check Us Out!
 
