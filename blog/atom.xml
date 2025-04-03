@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sh33pd0gz.github.io/blog</id>
     <title>a learning portfolio Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-04-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sh33pd0gz.github.io/blog"/>
     <subtitle>a learning portfolio Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[LeetCode In the IDE]]></title>
         <id>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</id>
         <link href="https://sh33pd0gz.github.io/blog/leetcode-in-neovim"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
+        <updated>2025-04-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Using the LeetCode CLI to Learn Data Structures & Algorithms in NeoVim.]]></summary>
         <content type="html"><![CDATA[<p>Using the LeetCode CLI to Learn Data Structures &amp; Algorithms in NeoVim.</p>
 <p>(Or any IDE of your choice)</p>

@@ -4,7 +4,7 @@
         <title>a learning portfolio Blog</title>
         <link>https://sh33pd0gz.github.io/blog</link>
         <description>a learning portfolio Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[LeetCode In the IDE]]></title>
             <link>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</link>
             <guid>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Using the LeetCode CLI to Learn Data Structures & Algorithms in NeoVim.]]></description>
             <content:encoded><![CDATA[<p>Using the LeetCode CLI to Learn Data Structures &amp; Algorithms in NeoVim.</p>
 <p>(Or any IDE of your choice)</p>
