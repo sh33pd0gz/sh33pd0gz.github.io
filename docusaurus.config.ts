@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Nik\'s Website',
-  tagline: 'Invent Yourself',
+  title: 'my portfolio',
+  tagline: 'a space to invent myself',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://sh33pd0gz.github.io/',
+  url: 'https://sh33pd0gz.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -65,21 +65,15 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/computer.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'nik\'s website',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Computer Logo',
+        src: 'img/computer-logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        {to: '/markdown-page', label: 'About', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/sh33pd0gz',
@@ -92,20 +86,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
           title: 'Socials',
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin/in/nik-kauffman',
+              href: 'https://www.linkedin.com/in/nik-kauffman',
             },
           ],
         },
