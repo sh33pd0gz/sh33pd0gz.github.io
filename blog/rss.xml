@@ -9,15 +9,44 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[LeetCode In the IDE]]></title>
+            <title><![CDATA[Solving LeetCode Problems in NeoVim]]></title>
             <link>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</link>
             <guid>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</guid>
             <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Using the LeetCode CLI to Learn Data Structures & Algorithms in NeoVim.]]></description>
-            <content:encoded><![CDATA[<p>Using the LeetCode CLI to Learn Data Structures &amp; Algorithms in NeoVim.</p>
-<p>(Or any IDE of your choice)</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="installing-the-cli-tool">Installing the CLI Tool<a href="https://sh33pd0gz.github.io/blog/leetcode-in-neovim#installing-the-cli-tool" class="hash-link" aria-label="Direct link to Installing the CLI Tool" title="Direct link to Installing the CLI Tool">​</a></h2>
-<p>Under construction...</p>]]></content:encoded>
+            <description><![CDATA[I recently came across come CLI tools for LeetCode. There are a few, but]]></description>
+            <content:encoded><![CDATA[<p>I recently came across come CLI tools for LeetCode. There are a few, but
+here is <a href="https://github.com/clearloop/leetcode-cli" target="_blank" rel="noopener noreferrer">a link</a> to the
+the one I've been using. These can be a useful tool in bringing
+LeetCode problems to your IDE. This gives a few advantages in the
+Data Structures &amp; Algorithms learning process, in my opinion. Some of them
+being:</p>
+<ol>
+<li>Gives the comfort of being in your personalized development environment</li>
+<li>Allows for the use of version control and sharing your solutions (and notes)
+somewhere like GitHub.</li>
+<li>Learning new programming languages while developing the tooling for the language to
+develop locally e.g. linting, formatting, running tests, static type-checking, etc.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="picking-a-problem-and-language-configuration">Picking A Problem and Language Configuration<a href="https://sh33pd0gz.github.io/blog/leetcode-in-neovim#picking-a-problem-and-language-configuration" class="hash-link" aria-label="Direct link to Picking A Problem and Language Configuration" title="Direct link to Picking A Problem and Language Configuration">​</a></h2>
+<p>You can start off any problem before editing code by getting the problem statement
+by running <code>leetcode pick &lt;ID&gt;</code>.</p>
+<p>If this is a problem you wish then to solve, get the scaffolded problem LeetCode
+provides as a starting point by running <code>leetcode edit &lt;ID&gt;</code>.</p>
+<p>If you've been solving problems in one language and get bored or want to begin learning
+a new programming language toggle the <code>lang</code> variable in the <code>~/.leetcode/leetcode.toml</code>
+file. That file looks something like this:</p>
+<div class="language-toml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-toml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[code]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">editor = "nvim"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">lang = "java"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[cookies]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">csrf = "CSRF_TOKEN HERE"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">session = "LEETCODE_SESSION TOKEN GOES HERE"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">site = "leetcode.com"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[storage]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cache = "Problems"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">code = "code"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">root = "~/.leetcode"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">scripts = "scripts"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-in-java">Example (in Java)<a href="https://sh33pd0gz.github.io/blog/leetcode-in-neovim#example-in-java" class="hash-link" aria-label="Direct link to Example (in Java)" title="Direct link to Example (in Java)">​</a></h2>
+<p>For this example lets solve an easy one to see this flow in action.</p>
+<p>I'll be using <strong>Length of Last Word (58)</strong> as a nice easy problem using
+that falls in the category of <em>Arrays &amp; Strings</em>. Here is a screenshot of
+my IDE in action</p>
+<p><img decoding="async" loading="lazy" alt="Leetcode 58 Code" src="https://sh33pd0gz.github.io/assets/images/leetcode_58_code-49dbe381de130895667d674c26d3d3db.png" width="1856" height="1022" class="img_ev3q"></p>
+<p>And then testing and executing that code in my floating terminal window reveals
+the simple test cases run to acceptance and executing against the remote
+problem grader shows statistics around time and space complexity of the submitted
+solutions.</p>
+<p><img decoding="async" loading="lazy" alt="Leetcode 58 Submission" src="https://sh33pd0gz.github.io/assets/images/leetcode_58_exec-99a0a9f066c6a0f29dc0af523c5ed4b1.png" width="3498" height="1952" class="img_ev3q"></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
