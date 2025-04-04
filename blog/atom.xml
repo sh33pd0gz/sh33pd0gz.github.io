@@ -51,4 +51,28 @@ solutions.</p>
             <uri>https://github.com/sh33pd0gz</uri>
         </author>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating AI Tooling to NeoVim]]></title>
+        <id>https://sh33pd0gz.github.io/blog/ai-in-neovim</id>
+        <link href="https://sh33pd0gz.github.io/blog/ai-in-neovim"/>
+        <updated>2025-04-04T20:02:47.786Z</updated>
+        <summary type="html"><![CDATA[COMING SOON]]></summary>
+        <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
+        <author>
+            <name>Nik Kauffman</name>
+            <uri>https://github.com/sh33pd0gz</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streaming Blockchain Data in Apache Flink]]></title>
+        <id>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</id>
+        <link href="https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink"/>
+        <updated>2025-04-04T19:59:46.121Z</updated>
+        <summary type="html"><![CDATA[COMING SOON]]></summary>
+        <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
+        <author>
+            <name>Nik Kauffman</name>
+            <uri>https://github.com/sh33pd0gz</uri>
+        </author>
+    </entry>
 </feed>
