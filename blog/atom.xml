@@ -52,10 +52,49 @@ solutions.</p>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Exploring Distributed Systems With the Kubernetes Operator Pattern]]></title>
+        <id>https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data</id>
+        <link href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data"/>
+        <updated>2025-04-04T20:22:09.442Z</updated>
+        <summary type="html"><![CDATA[The Kubernetes Operator pattern provides a few things:]]></summary>
+        <content type="html"><![CDATA[<p>The Kubernetes Operator pattern provides a few things:</p>
+<ol>
+<li>
+<p>Ease of local development and service orchestration using the same manifests
+the production uses (with different parametrization) as Kubernetes
+environments are provided locally via Docker Desktop, Rancher Desktop,
+or tools like <code>minikube</code>. Gone are the days of needing a <code>docker-compose</code> file
+for integration testing.</p>
+</li>
+<li>
+<p>Versatility if deploying across cloud providers is necessary. The Kubernetes
+Operator pattern is a great way to achieve cloud agnosticsm with your tech
+stack; all you need is Kubernetes cluster!</p>
+</li>
+<li>
+<p>This is more a point to the prowess of containerization and virtualization in
+a more general sense, but this pattern can make the accessibility of tools that
+used to be considered <em>difficult to setup and administer</em> perceivable as <em>easy to
+bootstrap and experiment with</em> i.e. distributed systems frameworks available from
+the Apache Foundation.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ultimate-configuration-and-bootstrappig">Ultimate Configuration and Bootstrappig<a href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data#ultimate-configuration-and-bootstrappig" class="hash-link" aria-label="Direct link to Ultimate Configuration and Bootstrappig" title="Direct link to Ultimate Configuration and Bootstrappig">​</a></h2>
+<ol>
+<li>Skaffold and Kustomize</li>
+<li>Example with Kafka</li>
+<li>Example with Flink</li>
+</ol>]]></content>
+        <author>
+            <name>Nik Kauffman</name>
+            <uri>https://github.com/sh33pd0gz</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Integrating AI Tooling in NeoVim]]></title>
         <id>https://sh33pd0gz.github.io/blog/ai-in-neovim</id>
         <link href="https://sh33pd0gz.github.io/blog/ai-in-neovim"/>
-        <updated>2025-04-04T20:03:26.216Z</updated>
+        <updated>2025-04-04T20:12:02.069Z</updated>
         <summary type="html"><![CDATA[COMING SOON]]></summary>
         <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
         <author>
