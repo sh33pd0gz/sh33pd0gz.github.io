@@ -12,8 +12,8 @@
         <id>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</id>
         <link href="https://sh33pd0gz.github.io/blog/leetcode-in-neovim"/>
         <updated>2025-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I recently came across come CLI tools for LeetCode. There are a few, but]]></summary>
-        <content type="html"><![CDATA[<p>I recently came across come CLI tools for LeetCode. There are a few, but
+        <summary type="html"><![CDATA[I recently came across some CLI tools for LeetCode. There are a few, but]]></summary>
+        <content type="html"><![CDATA[<p>I recently came across some CLI tools for LeetCode. There are a few, but
 here is <a href="https://github.com/clearloop/leetcode-cli" target="_blank" rel="noopener noreferrer">a link</a> to the
 the one I've been using. These can be a useful tool in bringing
 LeetCode problems to your IDE. This gives a few advantages in the

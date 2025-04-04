@@ -13,8 +13,8 @@
             <link>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</link>
             <guid>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</guid>
             <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[I recently came across come CLI tools for LeetCode. There are a few, but]]></description>
-            <content:encoded><![CDATA[<p>I recently came across come CLI tools for LeetCode. There are a few, but
+            <description><![CDATA[I recently came across some CLI tools for LeetCode. There are a few, but]]></description>
+            <content:encoded><![CDATA[<p>I recently came across some CLI tools for LeetCode. There are a few, but
 here is <a href="https://github.com/clearloop/leetcode-cli" target="_blank" rel="noopener noreferrer">a link</a> to the
 the one I've been using. These can be a useful tool in bringing
 LeetCode problems to your IDE. This gives a few advantages in the
