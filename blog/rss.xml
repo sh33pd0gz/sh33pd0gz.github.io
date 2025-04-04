@@ -49,6 +49,16 @@ solutions.</p>
 <p>Happy learning!</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Streaming Blockchain Data in Apache Flink]]></title>
+            <link>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</link>
+            <guid>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</guid>
+            <pubDate>Fri, 04 Apr 2025 21:16:05 GMT</pubDate>
+            <description><![CDATA[From novice to working in FinTech in one blog post.]]></description>
+            <content:encoded><![CDATA[<p>From novice to working in FinTech in one blog post.</p>
+<p>Not really! But, a fun investigation nonetheless.</p>
+<p>...THE REST BEFORE 4.7</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Exploring Distributed Systems With the Kubernetes Operator Pattern]]></title>
             <link>https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data</link>
             <guid>https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data</guid>
@@ -88,14 +98,6 @@ the Apache Foundation.</p>
             <link>https://sh33pd0gz.github.io/blog/ai-in-neovim</link>
             <guid>https://sh33pd0gz.github.io/blog/ai-in-neovim</guid>
             <pubDate>Fri, 04 Apr 2025 20:12:02 GMT</pubDate>
-            <description><![CDATA[COMING SOON]]></description>
-            <content:encoded><![CDATA[<p>COMING SOON</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Streaming Blockchain Data in Apache Flink]]></title>
-            <link>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</link>
-            <guid>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</guid>
-            <pubDate>Fri, 04 Apr 2025 19:59:46 GMT</pubDate>
             <description><![CDATA[COMING SOON]]></description>
             <content:encoded><![CDATA[<p>COMING SOON</p>]]></content:encoded>
         </item>
