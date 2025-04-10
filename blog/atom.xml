@@ -2,11 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sh33pd0gz.github.io/blog</id>
     <title>my portfolio Blog</title>
-    <updated>2025-04-06T00:00:00.000Z</updated>
+    <updated>2025-04-10T22:56:35.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sh33pd0gz.github.io/blog"/>
     <subtitle>my portfolio Blog</subtitle>
     <icon>https://sh33pd0gz.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[kubernetes-operator-pattern-big-data/temp]]></title>
+        <id>https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data/temp</id>
+        <link href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data/temp"/>
+        <updated>2025-04-10T22:56:35.253Z</updated>
+        <summary type="html"><![CDATA[1. Ease of local development and service orchestration using the same manifests]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>
+<p>Ease of local development and service orchestration using the same manifests
+the production uses (with different parametrization) as Kubernetes
+environments are provided locally via Docker Desktop, Rancher Desktop,
+or tools like <code>minikube</code>. Gone are the days of needing a <code>docker-compose</code> file
+for integration testing.</p>
+</li>
+<li>
+<p>Versatility if deploying across cloud providers is necessary. The Kubernetes
+Operator pattern is a great way to achieve cloud agnosticsm with your tech
+stack; all you need is Kubernetes cluster!</p>
+</li>
+<li>
+<p>This is more a point to the prowess of containerization and virtualization in
+a more general sense, but this pattern can make the accessibility of tools that
+used to be considered <em>difficult to setup and administer</em> perceivable as <em>easy to
+bootstrap and experiment with</em> i.e. distributed systems frameworks available from
+the Apache Foundation.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ultimate-configuration-and-bootstrappig">Ultimate Configuration and Bootstrappig<a href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data/temp#ultimate-configuration-and-bootstrappig" class="hash-link" aria-label="Direct link to Ultimate Configuration and Bootstrappig" title="Direct link to Ultimate Configuration and Bootstrappig">​</a></h2>
+<ol>
+<li>Skaffold and Kustomize</li>
+<li>Example with Kafka</li>
+<li>Example with Flink</li>
+</ol>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streaming Blockchain Data in Apache Flink]]></title>
+        <id>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</id>
+        <link href="https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink"/>
+        <updated>2025-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[COMING SOON]]></summary>
+        <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
+        <author>
+            <name>Nik Kauffman</name>
+            <uri>https://github.com/sh33pd0gz</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[flink-blockchain/temp]]></title>
+        <id>https://sh33pd0gz.github.io/blog/2025/04/07/flink-blockchain/temp</id>
+        <link href="https://sh33pd0gz.github.io/blog/2025/04/07/flink-blockchain/temp"/>
+        <updated>2025-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From zero to a job in FinTech in one blog post.]]></summary>
+        <content type="html"><![CDATA[<p>From zero to a job in FinTech in one blog post.</p>
+<p>Pysche! Nonetheless, stateful streaming with Apache Flink and processing
+Blockchain transactions is a great way to work with socket connections
+as a data streaming source and familiarize with real-time financial data.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="setting-up-flink-infrastructure">Setting Up Flink Infrastructure<a href="https://sh33pd0gz.github.io/blog/2025/04/07/flink-blockchain/temp#setting-up-flink-infrastructure" class="hash-link" aria-label="Direct link to Setting Up Flink Infrastructure" title="Direct link to Setting Up Flink Infrastructure">​</a></h2>
+<p><a href="https://nightlies.apache.org/flink/flink-docs-release-2.0/" target="_blank" rel="noopener noreferrer">Apache Flink</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="initializing-a-new-flink-project">Initializing A New Flink Project<a href="https://sh33pd0gz.github.io/blog/2025/04/07/flink-blockchain/temp#initializing-a-new-flink-project" class="hash-link" aria-label="Direct link to Initializing A New Flink Project" title="Direct link to Initializing A New Flink Project">​</a></h2>
+<ol start="2">
+<li>Installing necessary dependencies e.g. data stream API vs table API</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="connecting-to-blockchain">Connecting To Blockchain<a href="https://sh33pd0gz.github.io/blog/2025/04/07/flink-blockchain/temp#connecting-to-blockchain" class="hash-link" aria-label="Direct link to Connecting To Blockchain" title="Direct link to Connecting To Blockchain">​</a></h2>
+<p><a href="https://www.blockchain.com/explorer/api/api_websocket" target="_blank" rel="noopener noreferrer">Blockchain WebSocket API</a></p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Solving LeetCode Problems in NeoVim]]></title>
         <id>https://sh33pd0gz.github.io/blog/leetcode-in-neovim</id>
@@ -52,14 +117,12 @@ solutions.</p>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Streaming Blockchain Data in Apache Flink]]></title>
-        <id>https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink</id>
-        <link href="https://sh33pd0gz.github.io/blog/streaming-blockchain-messages-in-flink"/>
-        <updated>2025-04-04T21:16:05.569Z</updated>
-        <summary type="html"><![CDATA[From novice to working in FinTech in one blog post.]]></summary>
-        <content type="html"><![CDATA[<p>From novice to working in FinTech in one blog post.</p>
-<p>Not really! But, a fun investigation nonetheless.</p>
-<p>...THE REST BEFORE 4.7</p>]]></content>
+        <title type="html"><![CDATA[Integrating AI Tooling in NeoVim]]></title>
+        <id>https://sh33pd0gz.github.io/blog/ai-in-neovim</id>
+        <link href="https://sh33pd0gz.github.io/blog/ai-in-neovim"/>
+        <updated>2025-04-04T21:55:14.000Z</updated>
+        <summary type="html"><![CDATA[COMING SOON]]></summary>
+        <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
         <author>
             <name>Nik Kauffman</name>
             <uri>https://github.com/sh33pd0gz</uri>
@@ -69,46 +132,7 @@ solutions.</p>
         <title type="html"><![CDATA[Exploring Distributed Systems With the Kubernetes Operator Pattern]]></title>
         <id>https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data</id>
         <link href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data"/>
-        <updated>2025-04-04T20:22:09.442Z</updated>
-        <summary type="html"><![CDATA[The Kubernetes Operator pattern provides a few things:]]></summary>
-        <content type="html"><![CDATA[<p>The Kubernetes Operator pattern provides a few things:</p>
-<ol>
-<li>
-<p>Ease of local development and service orchestration using the same manifests
-the production uses (with different parametrization) as Kubernetes
-environments are provided locally via Docker Desktop, Rancher Desktop,
-or tools like <code>minikube</code>. Gone are the days of needing a <code>docker-compose</code> file
-for integration testing.</p>
-</li>
-<li>
-<p>Versatility if deploying across cloud providers is necessary. The Kubernetes
-Operator pattern is a great way to achieve cloud agnosticsm with your tech
-stack; all you need is Kubernetes cluster!</p>
-</li>
-<li>
-<p>This is more a point to the prowess of containerization and virtualization in
-a more general sense, but this pattern can make the accessibility of tools that
-used to be considered <em>difficult to setup and administer</em> perceivable as <em>easy to
-bootstrap and experiment with</em> i.e. distributed systems frameworks available from
-the Apache Foundation.</p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ultimate-configuration-and-bootstrappig">Ultimate Configuration and Bootstrappig<a href="https://sh33pd0gz.github.io/blog/kubernetes-operator-pattern-big-data#ultimate-configuration-and-bootstrappig" class="hash-link" aria-label="Direct link to Ultimate Configuration and Bootstrappig" title="Direct link to Ultimate Configuration and Bootstrappig">​</a></h2>
-<ol>
-<li>Skaffold and Kustomize</li>
-<li>Example with Kafka</li>
-<li>Example with Flink</li>
-</ol>]]></content>
-        <author>
-            <name>Nik Kauffman</name>
-            <uri>https://github.com/sh33pd0gz</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Integrating AI Tooling in NeoVim]]></title>
-        <id>https://sh33pd0gz.github.io/blog/ai-in-neovim</id>
-        <link href="https://sh33pd0gz.github.io/blog/ai-in-neovim"/>
-        <updated>2025-04-04T20:12:02.069Z</updated>
+        <updated>2025-04-04T21:55:14.000Z</updated>
         <summary type="html"><![CDATA[COMING SOON]]></summary>
         <content type="html"><![CDATA[<p>COMING SOON</p>]]></content>
         <author>
